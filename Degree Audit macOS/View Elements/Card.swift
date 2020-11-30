@@ -22,7 +22,6 @@ struct BaseCard<Content: View>: View {
 				.foregroundColor(.newPrimaryColor)
 			content()
 		}
-		
 		.frame(minHeight: 100)
 	}
 }
@@ -55,7 +54,7 @@ struct MinimalCard<Content: View>: View {
 
 struct MinimalCard_Previews: PreviewProvider {
 	static var previews: some View {
-		BaseCard {
+		MinimalCard {
 			Text("Hello")
 		}
 	}

@@ -49,7 +49,7 @@ struct SubsectionView: View {
 					}
 				}
 			}
-		}
+		}.padding()
 		
     }
 }

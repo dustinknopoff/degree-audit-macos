@@ -15,10 +15,10 @@ struct ContentView: View {
 		VStack(alignment: .leading) {
 			Top()
 			ScrollView() {
-				LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible()),GridItem(.flexible())]) {
+				HStack {
 					Summary()
 				}.padding(.all, 10)
-				LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())]) {
+				HStack {
 					BaseCard {
 						VStack(alignment: .leading) {
 							Text("Degree Requirements")
@@ -38,41 +38,9 @@ struct ContentView: View {
 							}
 						}
 					}
+					
 					.padding()
-					VStack {
-						ForEach(audit.sections, id: \.self) { section in
-							if section.name == selected {
-								BaseCard {
-									VStack {
-										HStack {
-											Text(section.name)
-												.frame(maxWidth: .infinity)
-											section.status.toSystemName()
-										}
-										
-										ForEach(section.subsections, id: \.self) { sub in
-											SubsectionView(sub: sub)
-											}
-									}
-								}
-							} else {
-								MinimalCard {
-									HStack {
-										Text(section.name)
-											.frame(maxWidth: .infinity)
-										 section.status.toSystemName()
-									}
-									.padding()
-									.onTapGesture {
-										self.selected = section.name
-									}
-								}
-							}
-							
-							
-						}
-					}
-					.padding()
+					Section_Breakdown(sections: audit.sections, selected: $selected)
 					
 				}
 				.padding(.all, 10)
