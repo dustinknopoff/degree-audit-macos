@@ -63,6 +63,9 @@ struct ContentView: View {
 										 section.status.toSystemName()
 									}
 									.padding()
+									.onTapGesture {
+										self.selected = section.name
+									}
 								}
 							}
 							
@@ -75,7 +78,7 @@ struct ContentView: View {
 				.padding(.all, 10)
 				
 			}
-			
+			.padding()
 		}
     }
 }
