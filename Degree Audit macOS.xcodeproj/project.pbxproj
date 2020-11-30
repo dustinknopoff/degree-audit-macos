@@ -16,7 +16,7 @@
 		35A92E63257303570066396F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92E62257303570066396F /* ImageLoader.swift */; };
 		35A92E6725732A900066396F /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 35A92E6625732A900066396F /* default.json */; };
 		35A92E70257332360066396F /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92E6F257332360066396F /* Summary.swift */; };
-		35F780AB2572CE8000ED1DFE /* dk_degree_auditApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780AA2572CE8000ED1DFE /* dk_degree_auditApp.swift */; };
+		35F780AB2572CE8000ED1DFE /* Degree_Audit_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780AA2572CE8000ED1DFE /* Degree_Audit_macOSApp.swift */; };
 		35F780AD2572CE8000ED1DFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780AC2572CE8000ED1DFE /* ContentView.swift */; };
 		35F780AF2572CE8200ED1DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F780AE2572CE8200ED1DFE /* Assets.xcassets */; };
 		35F780B22572CE8200ED1DFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F780B12572CE8200ED1DFE /* Preview Assets.xcassets */; };
@@ -35,13 +35,13 @@
 		35A92E62257303570066396F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		35A92E6625732A900066396F /* default.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
 		35A92E6F257332360066396F /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
-		35F780A72572CE8000ED1DFE /* dk-degree audit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dk-degree audit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F780AA2572CE8000ED1DFE /* dk_degree_auditApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dk_degree_auditApp.swift; sourceTree = "<group>"; };
+		35F780A72572CE8000ED1DFE /* Degree Audit macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Degree Audit macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F780AA2572CE8000ED1DFE /* Degree_Audit_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degree_Audit_macOSApp.swift; sourceTree = "<group>"; };
 		35F780AC2572CE8000ED1DFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35F780AE2572CE8200ED1DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F780B12572CE8200ED1DFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35F780B32572CE8200ED1DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35F780B42572CE8200ED1DFE /* dk_degree_audit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dk_degree_audit.entitlements; sourceTree = "<group>"; };
+		35F780B42572CE8200ED1DFE /* Degree_Audit_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Degree_Audit_macOS.entitlements; sourceTree = "<group>"; };
 		35F780BC2572CEC800ED1DFE /* Heading_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heading_1.swift; sourceTree = "<group>"; };
 		35F780C02572CFA100ED1DFE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		35F780C82572D2AA00ED1DFE /* Top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		35F7809E2572CE8000ED1DFE = {
 			isa = PBXGroup;
 			children = (
-				35F780A92572CE8000ED1DFE /* dk-degree audit */,
+				35F780A92572CE8000ED1DFE /* Degree Audit macOS */,
 				35F780A82572CE8000ED1DFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,26 +86,26 @@
 		35F780A82572CE8000ED1DFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35F780A72572CE8000ED1DFE /* dk-degree audit.app */,
+				35F780A72572CE8000ED1DFE /* Degree Audit macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35F780A92572CE8000ED1DFE /* dk-degree audit */ = {
+		35F780A92572CE8000ED1DFE /* Degree Audit macOS */ = {
 			isa = PBXGroup;
 			children = (
 				35A92E6525732A7B0066396F /* Resources */,
 				35A92E5C2572FB6D0066396F /* Model */,
 				35F780C72572D29300ED1DFE /* View Components */,
 				35F780BB2572CEAC00ED1DFE /* View Elements */,
-				35F780AA2572CE8000ED1DFE /* dk_degree_auditApp.swift */,
+				35F780AA2572CE8000ED1DFE /* Degree_Audit_macOSApp.swift */,
 				35F780AC2572CE8000ED1DFE /* ContentView.swift */,
 				35F780AE2572CE8200ED1DFE /* Assets.xcassets */,
 				35F780B32572CE8200ED1DFE /* Info.plist */,
-				35F780B42572CE8200ED1DFE /* dk_degree_audit.entitlements */,
+				35F780B42572CE8200ED1DFE /* Degree_Audit_macOS.entitlements */,
 				35F780B02572CE8200ED1DFE /* Preview Content */,
 			);
-			path = "dk-degree audit";
+			path = "Degree Audit macOS";
 			sourceTree = "<group>";
 		};
 		35F780B02572CE8200ED1DFE /* Preview Content */ = {
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35F780A62572CE8000ED1DFE /* dk-degree audit */ = {
+		35F780A62572CE8000ED1DFE /* Degree Audit macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F780B72572CE8200ED1DFE /* Build configuration list for PBXNativeTarget "dk-degree audit" */;
+			buildConfigurationList = 35F780B72572CE8200ED1DFE /* Build configuration list for PBXNativeTarget "Degree Audit macOS" */;
 			buildPhases = (
 				35F780A32572CE8000ED1DFE /* Sources */,
 				35F780A42572CE8000ED1DFE /* Frameworks */,
@@ -154,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = "dk-degree audit";
+			name = "Degree Audit macOS";
 			productName = "dk-degree audit";
-			productReference = 35F780A72572CE8000ED1DFE /* dk-degree audit.app */;
+			productReference = 35F780A72572CE8000ED1DFE /* Degree Audit macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 35F780A22572CE8000ED1DFE /* Build configuration list for PBXProject "dk-degree audit" */;
+			buildConfigurationList = 35F780A22572CE8000ED1DFE /* Build configuration list for PBXProject "Degree Audit macOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -186,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35F780A62572CE8000ED1DFE /* dk-degree audit */,
+				35F780A62572CE8000ED1DFE /* Degree Audit macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -214,7 +214,7 @@
 				35F780AD2572CE8000ED1DFE /* ContentView.swift in Sources */,
 				35A92E5E2572FB790066396F /* Audit.swift in Sources */,
 				35F780C92572D2AA00ED1DFE /* Top.swift in Sources */,
-				35F780AB2572CE8000ED1DFE /* dk_degree_auditApp.swift in Sources */,
+				35F780AB2572CE8000ED1DFE /* Degree_Audit_macOSApp.swift in Sources */,
 				35A92E63257303570066396F /* ImageLoader.swift in Sources */,
 				357F60F6257464BC00316CE3 /* FileManager.swift in Sources */,
 				35792AF72573D75A00042002 /* Subsection.swift in Sources */,
@@ -348,20 +348,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "dk-degree audit/dk_degree_audit.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Degree Audit macOS/Degree_Audit_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"dk-degree audit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Degree Audit macOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ECKUNK7NAX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "dk-degree audit/Info.plist";
+				INFOPLIST_FILE = "Degree Audit macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.dk-degree-audit";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.degree-audit-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -372,20 +372,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "dk-degree audit/dk_degree_audit.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Degree Audit macOS/Degree_Audit_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"dk-degree audit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Degree Audit macOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ECKUNK7NAX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "dk-degree audit/Info.plist";
+				INFOPLIST_FILE = "Degree Audit macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.dk-degree-audit";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.degree-audit-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -394,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35F780A22572CE8000ED1DFE /* Build configuration list for PBXProject "dk-degree audit" */ = {
+		35F780A22572CE8000ED1DFE /* Build configuration list for PBXProject "Degree Audit macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35F780B52572CE8200ED1DFE /* Debug */,
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F780B72572CE8200ED1DFE /* Build configuration list for PBXNativeTarget "dk-degree audit" */ = {
+		35F780B72572CE8200ED1DFE /* Build configuration list for PBXNativeTarget "Degree Audit macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35F780B82572CE8200ED1DFE /* Debug */,
