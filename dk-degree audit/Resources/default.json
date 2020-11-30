@@ -1,0 +1,88 @@
+{
+	"graduation": "2021-05-07",
+	"gpa": 3.6,
+	"calendar_year": "201810",
+	"sections": [
+		{
+			"name": "Computer Science Courses - Combined Major",
+			"status": "in_progress",
+			"subsections": [
+				{
+					"name": "Computer Science Overview",
+					"classes": [
+						{
+							"term": "SP17",
+							"college": "CS",
+							"class_no": 1200,
+							"credits": 1,
+							"grade": "A",
+							"name": "CS/IS Overview 1"
+						},
+						{
+							"term": "FL18",
+							"college": "CS",
+							"class_no": 1210,
+							"credits": 1,
+							"grade": "B",
+							"name": "Professional Development Co-op"
+						}
+					]
+				},
+				{
+					"name": "Discrete Structures",
+					"classes": [
+						{
+							"term": "FL16",
+							"college": "MATH",
+							"class_no": 1365,
+							"credits": 4,
+							"grade": "T",
+							"name": "Foundations"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Design Requirements",
+			"status": "in_progress",
+			"subsections": []
+		},
+		{
+			"name": "Degree Focused Electives",
+			"status": "in_progress",
+			"subsections": []
+		},
+		{
+			"name": "Integrative Requirement",
+			"status": "in_progress",
+			"subsections": []
+		},
+		{
+			"name": "Supporting courses: Computing & Social Issues",
+			"status": "complete",
+			"subsections": []
+		},
+		{
+			"name": "Computer Science Writing Requirement",
+			"status": "in_progress",
+			"subsections": []
+		},
+		{
+			"name": "Computer Science/Design Credit/GPA Requirements",
+			"status": "in_progress",
+			"subsections": []
+		},
+		{
+			"name": "Major GPA Requirement",
+			"status": "in_progress",
+			"subsections": []
+		},
+		{
+			"name": "Required General Electives",
+			"status": "complete",
+			"subsections": []
+		}
+	]
+
+}

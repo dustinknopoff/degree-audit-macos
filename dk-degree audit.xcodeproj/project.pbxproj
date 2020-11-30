@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35792AF72573D75A00042002 /* Subsection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35792AF62573D75A00042002 /* Subsection.swift */; };
+		35792AFB2573E01600042002 /* NameAndValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35792AFA2573E01600042002 /* NameAndValue.swift */; };
+		35792AFE2573E62100042002 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35792AFD2573E62100042002 /* WebView.swift */; };
+		357F60F6257464BC00316CE3 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F60F5257464BC00316CE3 /* FileManager.swift */; };
+		357F60FA25747A9E00316CE3 /* Color Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F60F925747A9E00316CE3 /* Color Extensions.swift */; };
+		35A92E5E2572FB790066396F /* Audit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92E5D2572FB790066396F /* Audit.swift */; };
+		35A92E63257303570066396F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92E62257303570066396F /* ImageLoader.swift */; };
+		35A92E6725732A900066396F /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 35A92E6625732A900066396F /* default.json */; };
+		35A92E70257332360066396F /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92E6F257332360066396F /* Summary.swift */; };
+		35F780AB2572CE8000ED1DFE /* dk_degree_auditApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780AA2572CE8000ED1DFE /* dk_degree_auditApp.swift */; };
+		35F780AD2572CE8000ED1DFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780AC2572CE8000ED1DFE /* ContentView.swift */; };
+		35F780AF2572CE8200ED1DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F780AE2572CE8200ED1DFE /* Assets.xcassets */; };
+		35F780B22572CE8200ED1DFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F780B12572CE8200ED1DFE /* Preview Assets.xcassets */; };
+		35F780BD2572CEC800ED1DFE /* Heading_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780BC2572CEC800ED1DFE /* Heading_1.swift */; };
+		35F780C12572CFA100ED1DFE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780C02572CFA100ED1DFE /* Card.swift */; };
+		35F780C92572D2AA00ED1DFE /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780C82572D2AA00ED1DFE /* Top.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35792AF62573D75A00042002 /* Subsection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsection.swift; sourceTree = "<group>"; };
+		35792AFA2573E01600042002 /* NameAndValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndValue.swift; sourceTree = "<group>"; };
+		35792AFD2573E62100042002 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		357F60F5257464BC00316CE3 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		357F60F925747A9E00316CE3 /* Color Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Extensions.swift"; sourceTree = "<group>"; };
+		35A92E5D2572FB790066396F /* Audit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audit.swift; sourceTree = "<group>"; };
+		35A92E62257303570066396F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		35A92E6625732A900066396F /* default.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
+		35A92E6F257332360066396F /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		35F780A72572CE8000ED1DFE /* dk-degree audit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dk-degree audit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F780AA2572CE8000ED1DFE /* dk_degree_auditApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dk_degree_auditApp.swift; sourceTree = "<group>"; };
+		35F780AC2572CE8000ED1DFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35F780AE2572CE8200ED1DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35F780B12572CE8200ED1DFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35F780B32572CE8200ED1DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F780B42572CE8200ED1DFE /* dk_degree_audit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dk_degree_audit.entitlements; sourceTree = "<group>"; };
+		35F780BC2572CEC800ED1DFE /* Heading_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heading_1.swift; sourceTree = "<group>"; };
+		35F780C02572CFA100ED1DFE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		35F780C82572D2AA00ED1DFE /* Top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35F780A42572CE8000ED1DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A92E5C2572FB6D0066396F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35A92E5D2572FB790066396F /* Audit.swift */,
+				357F60F5257464BC00316CE3 /* FileManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35A92E6525732A7B0066396F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35A92E6625732A900066396F /* default.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35F7809E2572CE8000ED1DFE = {
+			isa = PBXGroup;
+			children = (
+				35F780A92572CE8000ED1DFE /* dk-degree audit */,
+				35F780A82572CE8000ED1DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35F780A82572CE8000ED1DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35F780A72572CE8000ED1DFE /* dk-degree audit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35F780A92572CE8000ED1DFE /* dk-degree audit */ = {
+			isa = PBXGroup;
+			children = (
+				35A92E6525732A7B0066396F /* Resources */,
+				35A92E5C2572FB6D0066396F /* Model */,
+				35F780C72572D29300ED1DFE /* View Components */,
+				35F780BB2572CEAC00ED1DFE /* View Elements */,
+				35F780AA2572CE8000ED1DFE /* dk_degree_auditApp.swift */,
+				35F780AC2572CE8000ED1DFE /* ContentView.swift */,
+				35F780AE2572CE8200ED1DFE /* Assets.xcassets */,
+				35F780B32572CE8200ED1DFE /* Info.plist */,
+				35F780B42572CE8200ED1DFE /* dk_degree_audit.entitlements */,
+				35F780B02572CE8200ED1DFE /* Preview Content */,
+			);
+			path = "dk-degree audit";
+			sourceTree = "<group>";
+		};
+		35F780B02572CE8200ED1DFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35F780B12572CE8200ED1DFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35F780BB2572CEAC00ED1DFE /* View Elements */ = {
+			isa = PBXGroup;
+			children = (
+				35F780BC2572CEC800ED1DFE /* Heading_1.swift */,
+				35F780C02572CFA100ED1DFE /* Card.swift */,
+				35A92E62257303570066396F /* ImageLoader.swift */,
+				35792AFA2573E01600042002 /* NameAndValue.swift */,
+				35792AFD2573E62100042002 /* WebView.swift */,
+				357F60F925747A9E00316CE3 /* Color Extensions.swift */,
+			);
+			path = "View Elements";
+			sourceTree = "<group>";
+		};
+		35F780C72572D29300ED1DFE /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+				35F780C82572D2AA00ED1DFE /* Top.swift */,
+				35A92E6F257332360066396F /* Summary.swift */,
+				35792AF62573D75A00042002 /* Subsection.swift */,
+			);
+			path = "View Components";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35F780A62572CE8000ED1DFE /* dk-degree audit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F780B72572CE8200ED1DFE /* Build configuration list for PBXNativeTarget "dk-degree audit" */;
+			buildPhases = (
+				35F780A32572CE8000ED1DFE /* Sources */,
+				35F780A42572CE8000ED1DFE /* Frameworks */,
+				35F780A52572CE8000ED1DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dk-degree audit";
+			productName = "dk-degree audit";
+			productReference = 35F780A72572CE8000ED1DFE /* dk-degree audit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35F7809F2572CE8000ED1DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					35F780A62572CE8000ED1DFE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 35F780A22572CE8000ED1DFE /* Build configuration list for PBXProject "dk-degree audit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35F7809E2572CE8000ED1DFE;
+			productRefGroup = 35F780A82572CE8000ED1DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35F780A62572CE8000ED1DFE /* dk-degree audit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35F780A52572CE8000ED1DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A92E6725732A900066396F /* default.json in Resources */,
+				35F780B22572CE8200ED1DFE /* Preview Assets.xcassets in Resources */,
+				35F780AF2572CE8200ED1DFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35F780A32572CE8000ED1DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F780BD2572CEC800ED1DFE /* Heading_1.swift in Sources */,
+				35A92E70257332360066396F /* Summary.swift in Sources */,
+				35F780AD2572CE8000ED1DFE /* ContentView.swift in Sources */,
+				35A92E5E2572FB790066396F /* Audit.swift in Sources */,
+				35F780C92572D2AA00ED1DFE /* Top.swift in Sources */,
+				35F780AB2572CE8000ED1DFE /* dk_degree_auditApp.swift in Sources */,
+				35A92E63257303570066396F /* ImageLoader.swift in Sources */,
+				357F60F6257464BC00316CE3 /* FileManager.swift in Sources */,
+				35792AF72573D75A00042002 /* Subsection.swift in Sources */,
+				35792AFE2573E62100042002 /* WebView.swift in Sources */,
+				35792AFB2573E01600042002 /* NameAndValue.swift in Sources */,
+				35F780C12572CFA100ED1DFE /* Card.swift in Sources */,
+				357F60FA25747A9E00316CE3 /* Color Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		35F780B52572CE8200ED1DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35F780B62572CE8200ED1DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		35F780B82572CE8200ED1DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dk-degree audit/dk_degree_audit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"dk-degree audit/Preview Content\"";
+				DEVELOPMENT_TEAM = ECKUNK7NAX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dk-degree audit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.dk-degree-audit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		35F780B92572CE8200ED1DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dk-degree audit/dk_degree_audit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"dk-degree audit/Preview Content\"";
+				DEVELOPMENT_TEAM = ECKUNK7NAX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dk-degree audit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.dk-degree-audit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35F780A22572CE8000ED1DFE /* Build configuration list for PBXProject "dk-degree audit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F780B52572CE8200ED1DFE /* Debug */,
+				35F780B62572CE8200ED1DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F780B72572CE8200ED1DFE /* Build configuration list for PBXNativeTarget "dk-degree audit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F780B82572CE8200ED1DFE /* Debug */,
+				35F780B92572CE8200ED1DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35F7809F2572CE8000ED1DFE /* Project object */;
+}
