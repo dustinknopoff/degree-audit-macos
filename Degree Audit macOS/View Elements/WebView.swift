@@ -1,3 +1,10 @@
+//
+//  WebView.swift
+//  Degree Audit macOS
+//
+//  Created by Dustin Knopoff on 11/30/20. Forked from @swiftui-lab
+// https://gist.github.com/swiftui-lab/a873bf413770db6fd1a525fa424ce8cd
+//
 import SwiftUI
 import WebKit
 
@@ -16,6 +23,7 @@ class WebViewStateModel: ObservableObject {
 	@Published var loading: Bool = false
 	@Published var canGoBack: Bool = false
 	@Published var goBack: Bool = false
+	// Key variable
 	@Published var pageContent = ""
 }
 
@@ -160,7 +168,6 @@ extension WebViewWrapper.Coordinator: WKNavigationDelegate {
 				return
 			}
 			
-			// If the Javascript function returns an object, cast it into a Dictionary
 			let content = result as! String
 			self.webViewStateModel.pageContent = content
 		}

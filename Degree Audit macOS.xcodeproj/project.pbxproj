@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355B4FBA25753F8900DE9100 /* Degree_Audit_Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 355B4FB825753F8900DE9100 /* Degree_Audit_Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355B4FBD25753F8900DE9100 /* Degree_Audit_Parser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355B4FB625753F8900DE9100 /* Degree_Audit_Parser.framework */; };
+		355B4FBE25753F8900DE9100 /* Degree_Audit_Parser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 355B4FB625753F8900DE9100 /* Degree_Audit_Parser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		355B4FCF257541F600DE9100 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B4FCE257541F600DE9100 /* Parser.swift */; };
+		355B4FDA257543AE00DE9100 /* Degree_Audit_ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B4FD9257543AE00DE9100 /* Degree_Audit_ParserTests.swift */; };
+		355B4FDC257543AE00DE9100 /* Degree_Audit_Parser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355B4FB625753F8900DE9100 /* Degree_Audit_Parser.framework */; };
+		355B4FEE257545CA00DE9100 /* audit.html in Resources */ = {isa = PBXBuildFile; fileRef = 355B4FED257545CA00DE9100 /* audit.html */; };
+		355B4FF4257552BD00DE9100 /* String Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B4FF3257552BD00DE9100 /* String Extensions.swift */; };
+		355B4FF82575541600DE9100 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B4FF72575541600DE9100 /* Types.swift */; };
 		35792AF72573D75A00042002 /* Subsection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35792AF62573D75A00042002 /* Subsection.swift */; };
 		35792AFB2573E01600042002 /* NameAndValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35792AFA2573E01600042002 /* NameAndValue.swift */; };
 		35792AFE2573E62100042002 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35792AFD2573E62100042002 /* WebView.swift */; };
@@ -26,7 +35,55 @@
 		35F780C92572D2AA00ED1DFE /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F780C82572D2AA00ED1DFE /* Top.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		355B4FBB25753F8900DE9100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F7809F2572CE8000ED1DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355B4FB525753F8900DE9100;
+			remoteInfo = "Degree Audit Parser";
+		};
+		355B4FDD257543AE00DE9100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F7809F2572CE8000ED1DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355B4FB525753F8900DE9100;
+			remoteInfo = "Degree Audit Parser";
+		};
+		355B4FE62575453E00DE9100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F7809F2572CE8000ED1DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F780A62572CE8000ED1DFE;
+			remoteInfo = "Degree Audit macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		355B4FBF25753F8900DE9100 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				355B4FBE25753F8900DE9100 /* Degree_Audit_Parser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		355B4FB625753F8900DE9100 /* Degree_Audit_Parser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Degree_Audit_Parser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		355B4FB825753F8900DE9100 /* Degree_Audit_Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Degree_Audit_Parser.h; sourceTree = "<group>"; };
+		355B4FB925753F8900DE9100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355B4FCE257541F600DE9100 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		355B4FD7257543AE00DE9100 /* Degree Audit ParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Degree Audit ParserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		355B4FD9257543AE00DE9100 /* Degree_Audit_ParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degree_Audit_ParserTests.swift; sourceTree = "<group>"; };
+		355B4FDB257543AE00DE9100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355B4FED257545CA00DE9100 /* audit.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = audit.html; sourceTree = "<group>"; };
+		355B4FF3257552BD00DE9100 /* String Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Extensions.swift"; sourceTree = "<group>"; };
+		355B4FF72575541600DE9100 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		35792AF62573D75A00042002 /* Subsection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsection.swift; sourceTree = "<group>"; };
 		35792AFA2573E01600042002 /* NameAndValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndValue.swift; sourceTree = "<group>"; };
 		35792AFD2573E62100042002 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -50,16 +107,62 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35F780A42572CE8000ED1DFE /* Frameworks */ = {
+		355B4FB325753F8900DE9100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		355B4FD4257543AE00DE9100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355B4FDC257543AE00DE9100 /* Degree_Audit_Parser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F780A42572CE8000ED1DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355B4FBD25753F8900DE9100 /* Degree_Audit_Parser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355B4FB725753F8900DE9100 /* Degree Audit Parser */ = {
+			isa = PBXGroup;
+			children = (
+				355B4FB825753F8900DE9100 /* Degree_Audit_Parser.h */,
+				355B4FB925753F8900DE9100 /* Info.plist */,
+				355B4FCE257541F600DE9100 /* Parser.swift */,
+				355B4FF3257552BD00DE9100 /* String Extensions.swift */,
+				355B4FF72575541600DE9100 /* Types.swift */,
+			);
+			path = "Degree Audit Parser";
+			sourceTree = "<group>";
+		};
+		355B4FD8257543AE00DE9100 /* Degree Audit ParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				355B4FEC257545B600DE9100 /* Resources */,
+				355B4FD9257543AE00DE9100 /* Degree_Audit_ParserTests.swift */,
+				355B4FDB257543AE00DE9100 /* Info.plist */,
+			);
+			path = "Degree Audit ParserTests";
+			sourceTree = "<group>";
+		};
+		355B4FEC257545B600DE9100 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				355B4FED257545CA00DE9100 /* audit.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		35A92E5C2572FB6D0066396F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				35F780A92572CE8000ED1DFE /* Degree Audit macOS */,
+				355B4FB725753F8900DE9100 /* Degree Audit Parser */,
+				355B4FD8257543AE00DE9100 /* Degree Audit ParserTests */,
 				35F780A82572CE8000ED1DFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				35F780A72572CE8000ED1DFE /* Degree Audit macOS.app */,
+				355B4FB625753F8900DE9100 /* Degree_Audit_Parser.framework */,
+				355B4FD7257543AE00DE9100 /* Degree Audit ParserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,7 +251,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		355B4FB125753F8900DE9100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355B4FBA25753F8900DE9100 /* Degree_Audit_Parser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		355B4FB525753F8900DE9100 /* Degree Audit Parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355B4FC225753F8900DE9100 /* Build configuration list for PBXNativeTarget "Degree Audit Parser" */;
+			buildPhases = (
+				355B4FB125753F8900DE9100 /* Headers */,
+				355B4FB225753F8900DE9100 /* Sources */,
+				355B4FB325753F8900DE9100 /* Frameworks */,
+				355B4FB425753F8900DE9100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Degree Audit Parser";
+			productName = "Degree Audit Parser";
+			productReference = 355B4FB625753F8900DE9100 /* Degree_Audit_Parser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		355B4FD6257543AE00DE9100 /* Degree Audit ParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355B4FDF257543AE00DE9100 /* Build configuration list for PBXNativeTarget "Degree Audit ParserTests" */;
+			buildPhases = (
+				355B4FD3257543AE00DE9100 /* Sources */,
+				355B4FD4257543AE00DE9100 /* Frameworks */,
+				355B4FD5257543AE00DE9100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355B4FDE257543AE00DE9100 /* PBXTargetDependency */,
+				355B4FE72575453E00DE9100 /* PBXTargetDependency */,
+			);
+			name = "Degree Audit ParserTests";
+			productName = "Degree Audit ParserTests";
+			productReference = 355B4FD7257543AE00DE9100 /* Degree Audit ParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		35F780A62572CE8000ED1DFE /* Degree Audit macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35F780B72572CE8200ED1DFE /* Build configuration list for PBXNativeTarget "Degree Audit macOS" */;
@@ -152,10 +307,12 @@
 				35F780A32572CE8000ED1DFE /* Sources */,
 				35F780A42572CE8000ED1DFE /* Frameworks */,
 				35F780A52572CE8000ED1DFE /* Resources */,
+				355B4FBF25753F8900DE9100 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				355B4FBC25753F8900DE9100 /* PBXTargetDependency */,
 			);
 			name = "Degree Audit macOS";
 			productName = "dk-degree audit";
@@ -171,6 +328,14 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					355B4FB525753F8900DE9100 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					355B4FD6257543AE00DE9100 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 35F780A62572CE8000ED1DFE;
+					};
 					35F780A62572CE8000ED1DFE = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -190,11 +355,28 @@
 			projectRoot = "";
 			targets = (
 				35F780A62572CE8000ED1DFE /* Degree Audit macOS */,
+				355B4FB525753F8900DE9100 /* Degree Audit Parser */,
+				355B4FD6257543AE00DE9100 /* Degree Audit ParserTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		355B4FB425753F8900DE9100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355B4FD5257543AE00DE9100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355B4FEE257545CA00DE9100 /* audit.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35F780A52572CE8000ED1DFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +390,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		355B4FB225753F8900DE9100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355B4FF82575541600DE9100 /* Types.swift in Sources */,
+				355B4FCF257541F600DE9100 /* Parser.swift in Sources */,
+				355B4FF4257552BD00DE9100 /* String Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355B4FD3257543AE00DE9100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355B4FDA257543AE00DE9100 /* Degree_Audit_ParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35F780A32572CE8000ED1DFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,7 +431,120 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		355B4FBC25753F8900DE9100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355B4FB525753F8900DE9100 /* Degree Audit Parser */;
+			targetProxy = 355B4FBB25753F8900DE9100 /* PBXContainerItemProxy */;
+		};
+		355B4FDE257543AE00DE9100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355B4FB525753F8900DE9100 /* Degree Audit Parser */;
+			targetProxy = 355B4FDD257543AE00DE9100 /* PBXContainerItemProxy */;
+		};
+		355B4FE72575453E00DE9100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35F780A62572CE8000ED1DFE /* Degree Audit macOS */;
+			targetProxy = 355B4FE62575453E00DE9100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		355B4FC025753F8900DE9100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ECKUNK7NAX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Degree Audit Parser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.Degree-Audit-Parser";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		355B4FC125753F8900DE9100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ECKUNK7NAX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Degree Audit Parser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.Degree-Audit-Parser";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		355B4FE0257543AE00DE9100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ECKUNK7NAX;
+				INFOPLIST_FILE = "Degree Audit ParserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.Degree-Audit-ParserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Degree Audit macOS.app/Contents/MacOS/Degree Audit macOS";
+			};
+			name = Debug;
+		};
+		355B4FE1257543AE00DE9100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ECKUNK7NAX;
+				INFOPLIST_FILE = "Degree Audit ParserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dustinknopoff.Degree-Audit-ParserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Degree Audit macOS.app/Contents/MacOS/Degree Audit macOS";
+			};
+			name = Release;
+		};
 		35F780B52572CE8200ED1DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -350,6 +663,7 @@
 		35F780B82572CE8200ED1DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Degree Audit macOS/Degree_Audit_macOS.entitlements";
@@ -374,6 +688,7 @@
 		35F780B92572CE8200ED1DFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Degree Audit macOS/Degree_Audit_macOS.entitlements";
@@ -398,6 +713,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		355B4FC225753F8900DE9100 /* Build configuration list for PBXNativeTarget "Degree Audit Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355B4FC025753F8900DE9100 /* Debug */,
+				355B4FC125753F8900DE9100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355B4FDF257543AE00DE9100 /* Build configuration list for PBXNativeTarget "Degree Audit ParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355B4FE0257543AE00DE9100 /* Debug */,
+				355B4FE1257543AE00DE9100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		35F780A22572CE8000ED1DFE /* Build configuration list for PBXProject "Degree Audit macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
